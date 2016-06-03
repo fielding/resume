@@ -1,0 +1,256 @@
+{
+  "name": "Fielding Johnston",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "info": {
+    "label": "Full-Stack Developer/Designer",
+    "characterClass": "Programmer",
+    "brief": "A fullstack developer and designer with a love for the command line and UI/UX",
+    "image": "../../img/headshot.jpg",
+    "quote": ""
+  },
+  "disposition": {
+    "travel": 30,
+    "authorization": "",
+    "commitment": [],
+    "remote": true,
+    "relocation": {
+      "willing": true,
+      "destinations": []
+    }
+  },
+  "contact": {
+  "email": "hello@justfielding.com",
+  "phone": "1-479-522-6125",
+  "website": "https://justfielding.com",
+  "other": [
+    {
+      "label": "Cell Phone",
+      "flavor": "phone",
+      "value": "1-479-522-6125"
+    },
+    {
+      "label": "Work Phone",
+      "flavor": "phone",
+      "value": "1-479-595-8484"
+    },
+    {
+      "label": "Personal Email",
+      "flavor": "email",
+      "value": "fielding@justfielding.com"
+    },
+    {
+      "label": "CryptoIdentity",
+      "flavor": "url",
+      "value": "https://fielding.keybase.pub"
+    }
+  ]
+  },
+  "location": {
+    "address": "19 Oak Creek Cir\n Reeds Spring, MO 65737",
+    "code": "65737",
+    "city": "Reeds Spring",
+    "country": "US",
+    "region": "Missouri"
+  },
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "justfielding",
+      "url": "https://github.com/justfielding"
+    },
+    {
+      "label": "LinkedIn",
+      "network": "LinkedIn",
+      "username": "fieldingjohnston",
+      "url": "https://linkedin.com/in/fieldingjohnston"
+    },
+    {
+      "label": "Twitter",
+      "network": "Twitter",
+      "username": "justfielding",
+      "url": "https://twitter.com/justfielding"
+    }
+  ],
+  "employment": {
+    "summary": "10+ years of software/web development and design experience.",
+    "history": [
+      {
+        "employer": "justFielding",
+        "position": "Managing Member, Developer and Designer",
+        "url": "https://justfielding.com",
+        "start": "2009-06",
+        "summary": "",
+        "highlights": [
+          "",
+          "",
+          ""
+        ],
+        "location": "Northwest Arkansas",
+        "keywords": ["C++", "Javascript", "Lua", "Brand Identity"]
+      },
+      {
+        "employer": "Bonefish Inc.",
+        "url": "http://bonefishinc.com",
+        "position": "Developer, Designer and Spokesman",
+        "summary":"",
+        "start": "2011-11",
+        "end": "2012-11",
+        "keywords": ["API", "Nginx", "Redis", "Brand Identity"],
+        "location": "Tampa Bay, Florida / Fort Smith, Arkansas",
+        "highlights": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "employer": "Synergy Association, LLC",
+        "url": "http://synergyassociation.com",
+        "position": "Project Manager, Technician",
+        "summary":"",
+        "start": "2008-11",
+        "end": "2009-05",
+        "keywords": ["Point of Sales", "Surveillance", "C++", "hypervisor"],
+        "location": "Fort Smith, Arkansas",
+        "highlights": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "employer": "Kirkham Systems / Fireball Media",
+        "url": "http://kirkhamsystems.com",
+        "position": "Web Designer / Web Developer / Software Developer",
+        "summary":"",
+        "start": "2005-10",
+        "end": "2006-10",
+        "keywords": ["HTML", "CSS", "JavaScript", "Logo Design", "Interface Design"],
+        "location": "Northwest Arkansas/Arkansas River Valley",
+        "highlights": [
+          "",
+          "",
+          ""
+        ]
+      },
+      {
+        "private": true,
+        "employer": "Double Clicks",
+        "url": "http://employer-website.com",
+        "position": "Technician",
+        "summary": "",
+        "start": "2011-11",
+        "end": "2012-11",
+        "keywords": ["Networking"],
+        "highlights": [
+          "",
+          "",
+          ""
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Languages",
+        "level": "proficient",
+        "skills": ["C++", "JavaScript", "Python", "lua", "Bash", "VimL"]
+      },
+      {
+        "name": "Markup",
+        "level": "expert",
+        "skills": ["HTML5", "CSS3", "SASS", "Markdown", "Latex"]
+      },
+      {
+        "name": "Software",
+        "level": "proficient",
+        "skills": ["Photoshop", "Illustrator","Git"]
+      },
+      {
+        "name": "Systems",
+        "level": "proficient",
+        "skills": ["OS X/Darwin", "FreeBSD", "Linux", "Android", "iOS", "Windows"]
+      },
+      {
+        "name": "Frameworks/APIs/Paradigms",
+        "level": "proficient",
+        "skills": ["SDL/2", "SFML2", "Component-Entity-Systems", "Object Oriented Patterns", "API Design"]
+      }
+    ],
+    "list": [
+      {
+        "name": "C++",
+        "id": "1",
+        "summary": "",
+        "level": "1-10",
+        "years": 7,
+        "proof": "http://github.com/justfielding"
+      },
+      {
+        "name": "Git",
+        "id": "2",
+        "summary": "",
+        "level": "1-10",
+        "years": 7,
+        "proof": "http://github.com/justfielding"
+      }
+    ]
+  },
+  "references": [
+    {
+      "name": "Jeffrey Carpenter",
+      "category": "technical",
+      "role": "Managing Member @ Synergy Association, LLC",
+      "private": true,
+      "summary": "Contact information available on request.",
+      "contact": [
+        {
+          "flavor": "email",
+          "value": "jeffrey.carp@gmail.com"
+        }
+      ]
+    },
+    {
+      "name": "Heather Acord",
+      "category": "profesional",
+      "summary": "Contact information available on request.",
+      "role": "Coworker",
+      "private": true,
+      "contact": [
+        {
+          "flavor": "email",
+          "value": "heather@justfielding.com"
+        }
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Workflow Optimization",
+      "summary": "Constant reiterations of dotfiles/workflow to optimize work efficiency",
+      "keywords": ["Bash", "Vim", "Git", "dotfiles"]
+    },
+    {
+      "name": "User Experience / User Interface Design",
+      "summary": "",
+      "keywords": ["Design", "User Interface", "User Experience", "Front End"]
+    },
+    {
+      "name": "Cryptography",
+      "summary": "",
+      "keywords": ["Cryptography", "Algorithms", "PGP"]
+    }
+  ],
+  "languages": [
+    {
+      "private": true,
+      "language": "English",
+      "level": "Native"
+    }
+  ]
+}
