@@ -65,13 +65,13 @@
     {
       "label": "LinkedIn",
       "network": "LinkedIn",
-      "username": "fieldingjohnston",
+      "user": "fieldingjohnston",
       "url": "https://linkedin.com/in/fieldingjohnston"
     },
     {
       "label": "Twitter",
       "network": "Twitter",
-      "username": "justfielding",
+      "user": "justfielding",
       "url": "https://twitter.com/justfielding"
     }
   ],
@@ -85,9 +85,9 @@
         "start": "2009-06",
         "summary": "",
         "highlights": [
-          "",
-          "",
-          ""
+          "Developed brand identity in order to effectively market to potential clients",
+          "Planned and directed all functions of the company",
+          "Established and integrated the functional strategies of the company utilizing business expertise to reach financial and operational goals and objectives"
         ],
         "location": "Northwest Arkansas",
         "keywords": ["C++", "Javascript", "Lua", "Brand Identity"]
@@ -102,9 +102,9 @@
         "keywords": ["API", "Nginx", "Redis", "Brand Identity"],
         "location": "Tampa Bay, Florida / Fort Smith, Arkansas",
         "highlights": [
-          "",
-          "",
-          ""
+          "Targeted, rebranded, and built products to meet the clients needs",
+          "Designed and implemented API to extend base technology from a product in to a business to business service",
+          "Adapted existing infrastructure and code base to deliver media in new and unobtrusive ways"
         ]
       },
       {
@@ -201,6 +201,7 @@
       }
     ]
   },
+
   "references": [
     {
       "name": "Jeffrey Carpenter",
