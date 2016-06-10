@@ -7,7 +7,7 @@
   "info": {
     "label": "Full-Stack Developer/Designer",
     "characterClass": "Programmer",
-    "brief": "A fullstack developer and designer with a love for the command line and UI/UX",
+    "brief": "A fullstack developer and designer who enjoys getting lost in dotfile customization, appreciating user experience/interface design, and playing  ",
     "image": "../../img/headshot.jpg",
     "quote": ""
   },
@@ -136,21 +136,6 @@
           "",
           ""
         ]
-      },
-      {
-        "private": true,
-        "employer": "Double Clicks",
-        "url": "http://employer-website.com",
-        "position": "Technician",
-        "summary": "",
-        "start": "2011-11",
-        "end": "2012-11",
-        "keywords": ["Networking"],
-        "highlights": [
-          "",
-          "",
-          ""
-        ]
       }
     ]
   },
@@ -159,7 +144,7 @@
       {
         "name": "Languages",
         "level": "proficient",
-        "skills": ["C++", "JavaScript", "Python", "lua", "Bash", "VimL"]
+        "skills": ["C++", "JavaScript", "Python", "Lua", "Bash", "VimL"]
       },
       {
         "name": "Markup",
@@ -169,7 +154,7 @@
       {
         "name": "Software",
         "level": "proficient",
-        "skills": ["Photoshop", "Illustrator","Git"]
+        "skills": ["Git", "Photoshop", "Illustrator"]
       },
       {
         "name": "Systems",
@@ -179,7 +164,7 @@
       {
         "name": "Frameworks/APIs/Paradigms",
         "level": "proficient",
-        "skills": ["SDL/2", "SFML2", "Component-Entity-Systems", "Object Oriented Patterns", "API Design"]
+        "skills": ["SDL/2", "SFML2", "Component-Entity-Systems Paradigms", "Object Oriented Patterns", "API Design"]
       }
     ],
     "list": [
@@ -206,7 +191,7 @@
     {
       "name": "Jeffrey Carpenter",
       "category": "technical",
-      "role": "Managing Member @ Synergy Association, LLC",
+      "role": "Managing Member at Synergy Association, LLC",
       "private": true,
       "summary": "Contact information available on request.",
       "contact": [
@@ -218,9 +203,9 @@
     },
     {
       "name": "Heather Acord",
-      "category": "profesional",
+      "category": "personal",
       "summary": "Contact information available on request.",
-      "role": "Coworker",
+      "role": "Administrative Assistant",
       "private": true,
       "contact": [
         {
