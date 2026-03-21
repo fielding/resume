@@ -1,4 +1,4 @@
-# .Fielding.
+<img src="header.svg" alt=".Fielding." width="400">
 
 **Senior Software Engineer with AI and Systems Expertise**
 
