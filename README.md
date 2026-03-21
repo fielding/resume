@@ -8,7 +8,7 @@
 
 A versatile full-stack software engineer with 15+ years of experience building scalable AI infrastructure, distributed systems, and healthcare platforms. Currently building a greenfield patient communications platform at Freed, selected as the company's top strategic bet. Previously architected a distributed inference framework for 120k models handling 2M daily requests and a layer 1 blockchain at Nesa. Passionate about AI adoption, from engineering culture initiatives to production AI systems.
 
-## .Professional Experience.
+## .𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲.
 
 ### Senior Software Engineer
 **Freed** | 2025 - Present
@@ -56,7 +56,7 @@ A versatile full-stack software engineer with 15+ years of experience building s
 
 `JavaScript` `React` `Three.js` `Node.js` `C++` `Nginx` `Redis` `Docker`
 
-## .Publications.
+## .𝗣𝘂𝗯𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻𝘀.
 
 - **[Meta-Learning for Speeding Up Large Model Inference in Decentralized Environments](https://arxiv.org/abs/2410.21340)**
   Y. Du, Z. Wang, A. Farhan, F. Johnston, et al. *COLM 2025*
