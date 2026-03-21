@@ -1,0 +1,85 @@
+{
+  "basics": {
+    "name": "Fielding Johnston",
+    "label": "Senior Software Engineer with AI and Systems Expertise",
+    "email": "fielding@justfielding.com",
+    "phone": "(479)461-1996",
+    "url": "justfielding.com",
+    "summary": "A versatile full-stack software engineer with 15+ years of experience building scalable AI infrastructure, distributed systems, and healthcare platforms. Currently building a greenfield patient communications platform at Freed, selected as the company's top strategic bet. Previously architected a distributed inference framework for 120k models handling 2M daily requests and a layer 1 blockchain at Nesa. Passionate about AI adoption, from engineering culture initiatives to production AI systems.",
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "fielding",
+        "url": "github.com/fielding"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Fielding Johnston",
+        "url": "https://www.linkedin.com/in/fieldingjohnston/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Freed",
+      "position": "Senior Software Engineer",
+      "startDate": "2025-09",
+      "endDate": "Present",
+      "highlights": [
+        "Founding member of a 4-person team that built a greenfield patient communications platform; selected as the company's top strategic bet and scaled to a larger team.",
+        "Built end-to-end voice and SMS infrastructure including patient identification with dual validation, AI-initiated call transfer, two-way SMS with TCPA-compliant consent, and PHI screening via LLM.",
+        "Shipped BigQuery analytics pipeline as source of truth for pilot metrics, integrating sentiment analysis and call evaluation criteria, and fixing duration reporting accuracy from 0% to 100%.",
+        "Designed care collaboration workflows with PostgreSQL RLS and role-based access, enabling multi-clinician visit collaboration with realtime patient updates.",
+        "Created and shipped '12 Business Days of AI,' a 12-day internal engineering campaign with guest contributors teaching advanced AI patterns, shifting the team from shadow AI usage to documented shared mastery."
+      ],
+      "skills": "TypeScript, React, Supabase, PostgreSQL, Twilio, ElevenLabs, OpenAI Realtime, BigQuery, tRPC, GraphQL, GKE, Playwright, GitHub Actions"
+    },
+    {
+      "name": "Nesa",
+      "position": "Vice President of Engineering",
+      "startDate": "2023-04",
+      "endDate": "2025-08",
+      "highlights": [
+        "Architected a distributed inference framework for 120,000 models across heterogeneous hardware, handling up to 2M inference requests in a single day.",
+        "Designed and implemented Nesa’s layer 1 blockchain, enabling decentralized compute for AI workloads.",
+        "Developed telemetry pipeline using NATS.io and Prometheus to monitor thousands of nodes.",
+        "Contributed to equivariant encryption (EE) for end-to-end private AI inference with zero-latency overhead (arXiv:2407.19775).",
+        "Contributed to open-source projects including xFusers and nats.py."
+      ],
+      "skills": "Python, CUDA, NATS.io, Prometheus, Docker, blockchain, distributed systems, PyTorch, LLMs, Hugging Face, TypeScript, Git, Linux"
+    },
+    {
+      "name": "OpesSky",
+      "position": "Lead Software Engineer & Director of Design",
+      "startDate": "2022-02",
+      "endDate": "2023-04",
+      "highlights": [
+        "Led development of a Unity-based lunar colony simulation, implementing 3D environments, shaders, and AI-driven NPC systems.",
+        "Directed art team and coordinated UI/UX integration across the project."
+      ],
+      "skills": "Unity, C#, 3D programming, GLSL, AI, game design, JavaScript"
+    },
+    {
+      "name": "Vidy",
+      "position": "Lead Frontend Engineer / Senior Software Engineer",
+      "startDate": "2019-06",
+      "endDate": "2022-02",
+      "highlights": [
+        "Refactored codebase to Svelte, improving performance for a product with 14M unique monthly visitors.",
+        "Built custodial wallet system and implemented NLP-based ad placement to boost engagement."
+      ],
+      "skills": "JavaScript, Svelte, TypeScript, React, HTML, CSS, NLP"
+    },
+    {
+      "name": "justFielding",
+      "position": "Founder and Software Engineer",
+      "startDate": "2009-01",
+      "endDate": "2019-06",
+      "highlights": [
+        "Built and scaled web applications for clients using React, Three.js, and Node.js.",
+        "Managed technical, design, and business operations across 10 years of freelance work."
+      ],
+      "skills": "JavaScript, React, Three.js, Node.js, C++, Nginx, Redis, Docker"
+    }
+  ]
+}
