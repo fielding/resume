@@ -2,7 +2,7 @@
 
 **Senior Software Engineer with AI and Systems Expertise**
 
-[fielding@justfielding.com](mailto:fielding@justfielding.com) | [justfielding.com](https://justfielding.com) | (479)461-1996 | [GitHub](https://github.com/fielding) | [LinkedIn](https://www.linkedin.com/in/fieldingjohnston/)
+[fielding@justfielding.com](mailto:fielding@justfielding.com) | [justfielding.com](https://justfielding.com) | [GitHub](https://github.com/fielding) | [LinkedIn](https://www.linkedin.com/in/fieldingjohnston/)
 
 ---
 

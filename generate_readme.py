@@ -42,7 +42,6 @@ def generate():
     contact = [
         f"[{b['email']}](mailto:{b['email']})",
         f"[{b['url']}](https://{b['url']})",
-        b["phone"],
     ]
     if "GitHub" in profiles:
         contact.append(f"[GitHub](https://{profiles['GitHub']})")
