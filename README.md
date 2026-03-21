@@ -2,13 +2,13 @@
 
 **Senior Software Engineer with AI and Systems Expertise**
 
-[fielding@justfielding.com](mailto:fielding@justfielding.com) | [justfielding.com](https://justfielding.com) | (479)461-1996 | [GitHub](https://github.com/fielding) | [LinkedIn](https://linkedin.com/in/fieldingjohnston)
+[fielding@justfielding.com](mailto:fielding@justfielding.com) | [justfielding.com](https://justfielding.com) | (479)461-1996 | [GitHub](https://github.com/fielding) | [LinkedIn](https://www.linkedin.com/in/fieldingjohnston/)
 
 ---
 
 A versatile full-stack software engineer with 15+ years of experience building scalable AI infrastructure, distributed systems, and healthcare platforms. Currently building a greenfield patient communications platform at Freed, selected as the company's top strategic bet. Previously architected a distributed inference framework for 120k models handling 2M daily requests and a layer 1 blockchain at Nesa. Passionate about AI adoption, from engineering culture initiatives to production AI systems.
 
-## ■ 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲 ■
+## 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲
 
 ### Senior Software Engineer
 **Freed** | 2025 - Present
@@ -25,7 +25,7 @@ A versatile full-stack software engineer with 15+ years of experience building s
 **Nesa** | 2023 - 2025
 
 - Architected a distributed inference framework for 120,000 models across heterogeneous hardware, handling up to 2M inference requests in a single day.
-- Designed and implemented Nesa's layer 1 blockchain, enabling decentralized compute for AI workloads.
+- Designed and implemented Nesa’s layer 1 blockchain, enabling decentralized compute for AI workloads.
 - Developed telemetry pipeline using NATS.io and Prometheus to monitor thousands of nodes.
 - Contributed to equivariant encryption (EE) for end-to-end private AI inference with zero-latency overhead (arXiv:2407.19775).
 - Contributed to open-source projects including xFusers and nats.py.
@@ -56,7 +56,7 @@ A versatile full-stack software engineer with 15+ years of experience building s
 
 `JavaScript` `React` `Three.js` `Node.js` `C++` `Nginx` `Redis` `Docker`
 
-## ■ 𝗣𝘂𝗯𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻𝘀 ■
+## 𝗣𝘂𝗯𝗹𝗶𝗰𝗮𝘁𝗶𝗼𝗻𝘀
 
 - **[Meta-Learning for Speeding Up Large Model Inference in Decentralized Environments](https://arxiv.org/abs/2410.21340)**
   Y. Du, Z. Wang, A. Farhan, F. Johnston, et al. *COLM 2025*
