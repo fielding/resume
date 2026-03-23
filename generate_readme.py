@@ -86,32 +86,7 @@ def generate():
         lines.append("")
 
     # Publications
-    publications = [
-        {
-            "title": "Meta-Learning for Speeding Up Large Model Inference in Decentralized Environments",
-            "authors": "Y. Du, Z. Wang, A. Farhan, F. Johnston, et al.",
-            "venue": "COLM 2025",
-            "arxiv": "2410.21340",
-        },
-        {
-            "title": "Encrypted Large Model Inference: The Equivariant Encryption Paradigm",
-            "authors": "J. Buban, H. Zhang, C. Angione, F. Johnston, et al.",
-            "venue": "arXiv preprint, 2025",
-            "arxiv": "2502.01013",
-        },
-        {
-            "title": "Model Agnostic Hybrid Sharding for Heterogeneous Distributed Inference",
-            "authors": "C. Angione, Y. Zhao, H. Yang, F. Johnston, et al.",
-            "venue": "MLforSys2024",
-            "arxiv": "2407.19775",
-        },
-        {
-            "title": "Towards Secure and Private AI: A Framework for Decentralized Inference",
-            "authors": "H. Zhang, Y. Zhao, C. Yang, F. Johnston, et al.",
-            "venue": "NeurIPS 2024 Workshop RBFM",
-            "arxiv": "2407.19401",
-        },
-    ]
+    publications = data.get("publications", [])
 
     lines.append(f"## {to_bold_sans('Publications')}")
     lines.append("")
