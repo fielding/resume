@@ -139,7 +139,7 @@ style_bullet = ParagraphStyle(
     fontSize=BODY_SIZE,
     leading=BODY_LEADING,
     textColor=TEXT_COLOR,
-    leftIndent=14,
+    leftIndent=9,
     spaceAfter=3,
 )
 
@@ -250,7 +250,7 @@ class BulletParagraph(Flowable):
         self.style = style
         self.available_width = available_width
         self.bullet_size = 3
-        self.text_indent = 14
+        self.text_indent = 9
         self._para = Paragraph(text, style)
         self._para.wrap(available_width - self.text_indent, 1000)
         self.height = self._para.height + 2
@@ -264,7 +264,7 @@ class BulletParagraph(Flowable):
     def draw(self):
         c = self.canv
         c.setFillColor(ACCENT_RED)
-        bullet_y = self.height - self.style.leading + (self.style.leading - self.bullet_size) / 2 + 1
+        bullet_y = self.height - self.style.leading + (self.style.leading - self.bullet_size) / 2 - 2
         c.rect(0, bullet_y, self.bullet_size, self.bullet_size, stroke=0, fill=1)
         self._para.drawOn(c, self.text_indent, 0)
 
