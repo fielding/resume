@@ -2,6 +2,8 @@
 
 **Senior Software Engineer with AI and Systems Expertise**
 
+📄 [Download the full resume (PDF)](https://justfielding.com/cv.pdf)
+
 [fielding@justfielding.com](mailto:fielding@justfielding.com) | [justfielding.com](https://justfielding.com) | [GitHub](https://github.com/fielding) | [LinkedIn](https://www.linkedin.com/in/fieldingjohnston/)
 
 ---

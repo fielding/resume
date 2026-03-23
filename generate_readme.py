@@ -36,6 +36,8 @@ def generate():
     lines.append("")
     lines.append(f"**{b['label']}**")
     lines.append("")
+    lines.append(f"📄 [Download the full resume (PDF)](https://justfielding.com/cv.pdf)")
+    lines.append("")
 
     # Contact
     profiles = {p["network"]: p["url"] for p in b.get("profiles", [])}
