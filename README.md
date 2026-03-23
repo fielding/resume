@@ -47,6 +47,18 @@ A versatile full-stack software engineer with 15+ years of experience building s
 ### Lead & Senior Frontend Engineer
 **Vidy** | 2019 - 2022
 
+**Lead Frontend Engineer** (2020–2022)
+
+- Refactored codebase to Svelte, improving performance for 14M+ monthly users.
+- Built components for scalable real-time video and data applications.
+- Developed custodial wallet system for user transactions.
+- Implemented NLP for ad placement to boost engagement.
+
+**Senior Software Engineer** (2019–2020)
+
+- Built scalable APIs and web apps for real-time video.
+- Led adoption of modern JS frameworks.
+- Engineered fine-grained reactive vanilla JS framework.
 
 `JavaScript` `Svelte` `TypeScript` `React` `HTML` `CSS` `NLP`
 

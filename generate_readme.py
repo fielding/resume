@@ -66,18 +66,17 @@ def generate():
         end = job["endDate"] if job["endDate"] == "Present" else job["endDate"][:4]
         lines.append(f"**{job['name']}** | {start} - {end}")
         lines.append("")
-        for hl in job.get("highlights", []):
-            lines.append(f"- {hl}")
 
-        # Dual role support
-        if job.get("position2"):
-            lines.append("")
-            lines.append(f"### {job['position2']}")
-            s2 = job.get("startDate2", "")[:4]
-            e2 = job.get("endDate2", "")[:4]
-            lines.append(f"**{job['name']}** | {s2} - {e2}")
-            lines.append("")
-            for hl in job.get("highlights2", []):
+        if job.get("roles"):
+            for j, role in enumerate(job["roles"]):
+                if j > 0:
+                    lines.append("")
+                lines.append(f"**{role['title']}** ({role['startDate']}–{role['endDate']})")
+                lines.append("")
+                for hl in role.get("highlights", []):
+                    lines.append(f"- {hl}")
+        else:
+            for hl in job.get("highlights", []):
                 lines.append(f"- {hl}")
 
         lines.append("")
