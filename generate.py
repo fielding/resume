@@ -418,20 +418,18 @@ def build_resume(output_path="resume.pdf"):
             style_job_meta,
         ))
 
-        for hl in job.get("highlights", []):
-            entry.append(BulletParagraph(hl, frame_w))
-
-        # Vidy dual-role
-        if job.get("position2"):
-            entry.append(Spacer(1, 4))
-            entry.append(Paragraph(job["position2"], style_job_title))
-            s2 = job.get("startDate2", "")[:4]
-            e2 = job.get("endDate2", "")[:4]
-            entry.append(Paragraph(
-                f'{job["name"]}  <font color="{SUBTLE_HEX}">|</font>  {s2} &ndash; {e2}',
-                style_job_meta,
-            ))
-            for hl in job.get("highlights2", []):
+        if job.get("roles"):
+            for j, role in enumerate(job["roles"]):
+                if j > 0:
+                    entry.append(Spacer(1, 6))
+                entry.append(Paragraph(
+                    f'<b>{role["title"]}</b>  ({role["startDate"]}–{role["endDate"]})',
+                    ParagraphStyle("RoleTitle", parent=style_bullet, fontName="Inconsolata-SemiBold", leftIndent=0, spaceAfter=3),
+                ))
+                for hl in role.get("highlights", []):
+                    entry.append(BulletParagraph(hl, frame_w))
+        else:
+            for hl in job.get("highlights", []):
                 entry.append(BulletParagraph(hl, frame_w))
 
         if job.get("skills"):

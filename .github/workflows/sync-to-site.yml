@@ -1,0 +1,42 @@
+name: Sync resume to site
+
+on:
+  push:
+    paths:
+      - 'resume.json'
+      - 'generate.py'
+    branches: [master]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install reportlab
+
+      - name: Generate PDF
+        run: python generate.py
+
+      - name: Commit PDF if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet resume.pdf || (git add resume.pdf && git commit -m "Regenerate PDF from resume.json [skip ci]" && git push)
+
+      - name: Sync to site repo
+        env:
+          SITE_PAT: ${{ secrets.SITE_REPO_PAT }}
+        run: |
+          git clone https://x-access-token:${SITE_PAT}@github.com/fielding/justfielding.com.git site
+          cp resume.json site/src/lib/data/resume.json
+          cp resume.pdf site/static/cv.pdf
+          cd site
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add src/lib/data/resume.json static/cv.pdf && git commit -m "Sync resume.json and cv.pdf from resume repo [skip ci]" && git push)
