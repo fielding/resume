@@ -25,34 +25,37 @@ A versatile full-stack software engineer with 15+ years of experience building s
 **Nesa** | 2023 - 2025
 
 - Architected a distributed inference framework for 120,000 models across heterogeneous hardware, handling up to 2M inference requests in a single day.
-- Designed and implemented Nesa’s layer 1 blockchain, enabling decentralized compute for AI workloads.
+- Designed and implemented Nesa's layer 1 blockchain, enabling decentralized compute for AI workloads.
 - Developed telemetry pipeline using NATS.io and Prometheus to monitor thousands of nodes.
-- Contributed to equivariant encryption (EE) for end-to-end private AI inference with zero-latency overhead (arXiv:2407.19775).
+- Led secure containerization for user-submitted models.
+- Contributed to equivariant encryption (EE) for end-to-end private AI inference with zero-latency overhead.
+- Developed reinforcement learning system for dynamic model assignment.
 - Contributed to open-source projects including xFusers and nats.py.
 
 `Python` `CUDA` `NATS.io` `Prometheus` `Docker` `blockchain` `distributed systems` `PyTorch` `LLMs` `Hugging Face` `TypeScript` `Git` `Linux`
 
-### Lead Software Engineer & Director of Design
+### Lead Software Engineer & Director of Design and Development
 **OpesSky** | 2022 - 2023
 
-- Led development of a Unity-based lunar colony simulation, implementing 3D environments, shaders, and AI-driven NPC systems.
-- Directed art team and coordinated UI/UX integration across the project.
+- Led Unity-based lunar colony simulation game development.
+- Designed and implemented 3D environments and shaders.
+- Built AI systems for dynamic NPCs with procedural behaviors.
+- Directed art team and coordinated UI/UX integration.
 
 `Unity` `C#` `3D programming` `GLSL` `AI` `game design` `JavaScript`
 
-### Lead Frontend Engineer / Senior Software Engineer
+### Lead & Senior Frontend Engineer
 **Vidy** | 2019 - 2022
 
-- Refactored codebase to Svelte, improving performance for a product with 14M unique monthly visitors.
-- Built custodial wallet system and implemented NLP-based ad placement to boost engagement.
 
 `JavaScript` `Svelte` `TypeScript` `React` `HTML` `CSS` `NLP`
 
 ### Founder and Software Engineer
 **justFielding** | 2009 - 2019
 
-- Built and scaled web applications for clients using React, Three.js, and Node.js.
-- Managed technical, design, and business operations across 10 years of freelance work.
+- Built and scaled web apps integrating React and Three.js.
+- Advocated open-source frameworks to reduce tech debt.
+- Managed technical, design, and business operations.
 
 `JavaScript` `React` `Three.js` `Node.js` `C++` `Nginx` `Redis` `Docker`
 
