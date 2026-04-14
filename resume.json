@@ -68,28 +68,11 @@
       "position": "Lead & Senior Frontend Engineer",
       "startDate": "2019-06",
       "endDate": "2022-02",
-      "roles": [
-        {
-          "title": "Lead Frontend Engineer",
-          "startDate": "2020",
-          "endDate": "2022",
-          "highlights": [
-            "Refactored codebase to Svelte, improving performance for 14M+ monthly users.",
-            "Built components for scalable real-time video and data applications.",
-            "Developed custodial wallet system for user transactions.",
-            "Implemented NLP for ad placement to boost engagement."
-          ]
-        },
-        {
-          "title": "Senior Software Engineer",
-          "startDate": "2019",
-          "endDate": "2020",
-          "highlights": [
-            "Built scalable APIs and web apps for real-time video.",
-            "Led adoption of modern JS frameworks.",
-            "Engineered fine-grained reactive vanilla JS framework."
-          ]
-        }
+      "highlights": [
+        "Refactored codebase to Svelte, improving performance for 14M+ monthly users.",
+        "Developed custodial wallet system for user transactions.",
+        "Implemented NLP for ad placement to boost engagement.",
+        "Engineered fine-grained reactive vanilla JS framework."
       ],
       "skills": "JavaScript, Svelte, TypeScript, React, HTML, CSS, NLP"
     },
