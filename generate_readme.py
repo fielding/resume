@@ -57,7 +57,7 @@ def generate():
     lines.append("")
 
     # Experience
-    lines.append(f"## {to_bold_sans('Professional Experience')}")
+    lines.append(f"## {to_bold_sans('Experience')}")
     lines.append("")
 
     for job in work:

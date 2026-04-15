@@ -29,14 +29,12 @@ RESUME_JSON = os.path.join(SCRIPT_DIR, "resume.json")
 # ---------------------------------------------------------------------------
 # Colors (matching justfielding.com exactly)
 # ---------------------------------------------------------------------------
-ACCENT_RED = HexColor("#BE2446")
+ACCENT = HexColor("#c92873")
 TEXT_COLOR = HexColor("#1B1A19")
 SUBTLE_TEXT = HexColor("#6B7280")
-TAG_BG = HexColor("#EEEEEE")
-TAG_TEXT = HexColor("#555555")
 BG_COLOR = HexColor("#FAFAFA")
 
-ACCENT_HEX = "#BE2446"
+ACCENT_HEX = "#c92873"
 SUBTLE_HEX = "#6B7280"
 
 # ---------------------------------------------------------------------------
@@ -149,7 +147,7 @@ style_pub_title = ParagraphStyle(
     fontName="Inconsolata-SemiBold",
     fontSize=BODY_SIZE,
     leading=BODY_LEADING,
-    textColor=ACCENT_RED,
+    textColor=ACCENT,
     spaceAfter=0,
 )
 
@@ -161,6 +159,17 @@ style_pub_cite = ParagraphStyle(
     leading=10,
     textColor=SUBTLE_TEXT,
     spaceAfter=9,
+)
+
+# --- Skills inline ---
+style_skills = ParagraphStyle(
+    "Skills",
+    fontName="Inconsolata",
+    fontSize=8,
+    leading=10.5,
+    textColor=SUBTLE_TEXT,
+    spaceBefore=8,
+    spaceAfter=0,
 )
 
 # --- Profile body ---
@@ -180,7 +189,7 @@ style_profile = ParagraphStyle(
 class AccentRule(Flowable):
     """2px horizontal line in accent red, matching website section borders."""
 
-    def __init__(self, width, thickness=1.25, color=ACCENT_RED):
+    def __init__(self, width, thickness=1.25, color=ACCENT):
         super().__init__()
         self.width = width
         self.thickness = thickness
@@ -191,54 +200,6 @@ class AccentRule(Flowable):
         self.canv.setStrokeColor(self.color)
         self.canv.setLineWidth(self.thickness)
         self.canv.line(0, 0, self.width, 0)
-
-
-class TagStrip(Flowable):
-    """Render skill tags as rounded pill shapes matching website .tag class."""
-
-    def __init__(self, tags_str, available_width):
-        super().__init__()
-        self.tags = [t.strip() for t in tags_str.split(",")]
-        self.available_width = available_width
-        self.tag_font = "Inconsolata"
-        self.tag_size = 7
-        self.pad_x = 5
-        self.pad_y = 2.5
-        self.gap = 3.5
-        self.row_gap = 4
-        self._rows = self._layout_rows()
-        self.height = len(self._rows) * (self.tag_size + 2 * self.pad_y + self.row_gap)
-
-    def _tag_width(self, tag):
-        return pdfmetrics.stringWidth(tag, self.tag_font, self.tag_size) + 2 * self.pad_x
-
-    def _layout_rows(self):
-        rows = [[]]
-        x = 0
-        for tag in self.tags:
-            tw = self._tag_width(tag)
-            if x + tw > self.available_width and rows[-1]:
-                rows.append([])
-                x = 0
-            rows[-1].append(tag)
-            x += tw + self.gap
-        return rows
-
-    def draw(self):
-        c = self.canv
-        tag_h = self.tag_size + 2 * self.pad_y
-        y = self.height - tag_h
-        for row in self._rows:
-            x = 0
-            for j, tag in enumerate(row):
-                tw = self._tag_width(tag)
-                c.setFillColor(TAG_BG)
-                c.roundRect(x, y, tw, tag_h, 3, stroke=0, fill=1)
-                c.setFillColor(TAG_TEXT)
-                c.setFont(self.tag_font, self.tag_size)
-                c.drawString(x + self.pad_x, y + self.pad_y + 1, tag)
-                x += tw + self.gap
-            y -= tag_h + self.row_gap
 
 
 class BulletParagraph(Flowable):
@@ -263,7 +224,7 @@ class BulletParagraph(Flowable):
 
     def draw(self):
         c = self.canv
-        c.setFillColor(ACCENT_RED)
+        c.setFillColor(ACCENT)
         bullet_y = self.height - self.style.leading + (self.style.leading - self.bullet_size) / 2 - 2
         c.rect(0, bullet_y, self.bullet_size, self.bullet_size, stroke=0, fill=1)
         self._para.drawOn(c, self.text_indent, 0)
@@ -296,13 +257,13 @@ class HeaderBlock(Flowable):
         first_w = pdfmetrics.stringWidth(first, "TitilliumWeb-Black", name_size)
 
         # Red dot
-        c.setFillColor(ACCENT_RED)
+        c.setFillColor(ACCENT)
         c.drawString(0, y - 38, ".")
         # Name
         c.setFillColor(TEXT_COLOR)
         c.drawString(dot_w, y - 38, first)
         # Red dot
-        c.setFillColor(ACCENT_RED)
+        c.setFillColor(ACCENT)
         c.drawString(dot_w + first_w, y - 38, ".")
 
         # --- Contact info on the right side ---
@@ -401,7 +362,7 @@ def build_resume(output_path="resume.pdf"):
 
     # --- Experience ---
     story.append(Paragraph(
-        f'<font color="{ACCENT_HEX}">.</font>Professional Experience<font color="{ACCENT_HEX}">.</font>',
+        f'<font color="{ACCENT_HEX}">.</font>Experience<font color="{ACCENT_HEX}">.</font>',
         style_section_header,
     ))
     story.append(AccentRule(frame_w))
@@ -433,8 +394,9 @@ def build_resume(output_path="resume.pdf"):
                 entry.append(BulletParagraph(hl, frame_w))
 
         if job.get("skills"):
-            entry.append(Spacer(1, 4))
-            entry.append(TagStrip(job["skills"], frame_w))
+            sep = f' <font color="{ACCENT_HEX}">·</font> '
+            skills_inline = sep.join(s.strip() for s in job["skills"].split(","))
+            entry.append(Paragraph(skills_inline, style_skills))
 
         story.append(KeepTogether(entry))
 
