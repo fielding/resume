@@ -8,7 +8,7 @@
 
 A versatile full-stack software engineer with 15+ years of experience building scalable AI infrastructure, distributed systems, and healthcare platforms. Currently building a greenfield patient communications platform at Freed, selected as the company's top strategic bet. Previously architected a distributed inference framework for 120k models handling 2M daily requests and a layer 1 blockchain at Nesa. Passionate about AI adoption, from engineering culture initiatives to production AI systems.
 
-## 𝗣𝗿𝗼𝗳𝗲𝘀𝘀𝗶𝗼𝗻𝗮𝗹 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲
+## 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲
 
 ### Senior Software Engineer
 **Freed** | 2025 - Present
