@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Fielding Johnston",
-    "label": "Senior Software Engineer with AI and Systems Expertise",
+    "label": "Principal Engineer with AI and Systems Expertise",
     "email": "fielding@justfielding.com",
     "phone": "(479)461-1996",
     "url": "justfielding.com",
-    "summary": "A versatile full-stack software engineer with 15+ years of experience building scalable AI infrastructure, distributed systems, and healthcare platforms. Currently building a greenfield patient communications platform at Freed, selected as the company's top strategic bet. Previously architected a distributed inference framework for 120k models handling 2M daily requests and a layer 1 blockchain at Nesa. Passionate about AI adoption, from engineering culture initiatives to production AI systems.",
+    "summary": "A versatile full-stack software engineer with 15+ years of experience building scalable AI infrastructure, distributed systems, and healthcare platforms. Currently Principal Engineer at Venice.ai, building a privacy-first generative AI platform. Previously architected a distributed inference framework for 120k models handling 2M daily requests and a layer 1 blockchain at Nesa. Passionate about AI adoption, from engineering culture initiatives to production AI systems.",
     "profiles": [
       {
         "network": "GitHub",
@@ -21,10 +21,22 @@
   },
   "work": [
     {
+      "name": "Venice.ai",
+      "position": "Principal Engineer",
+      "startDate": "2026-05",
+      "endDate": "Present",
+      "url": "https://venice.ai",
+      "highlights": [
+        "Principal Engineer on a privacy-first generative AI platform serving open-source text and image models to consumers and API customers.",
+        "Drive architecture and reliability work across the platform's inference infrastructure.",
+        "Champion AI-assisted engineering practices and agentic development workflows across the team."
+      ]
+    },
+    {
       "name": "Freed",
       "position": "Senior Software Engineer",
       "startDate": "2025-09",
-      "endDate": "Present",
+      "endDate": "2026-05",
       "highlights": [
         "Founding member of a 4-person team that built a greenfield patient communications platform; selected as the company's top strategic bet and scaled to a larger team.",
         "Built end-to-end voice and SMS infrastructure including patient identification with dual validation, AI-initiated call transfer, two-way SMS with TCPA-compliant consent, and PHI screening via LLM.",
