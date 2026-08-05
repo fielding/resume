@@ -1,17 +1,25 @@
 <img src="header.svg" alt=".Fielding." width="400">
 
-**Senior Software Engineer with AI and Systems Expertise**
+**Principal Engineer with AI and Systems Expertise**
 
 [📄 PDF](https://justfielding.com/cv.pdf) | [fielding@justfielding.com](mailto:fielding@justfielding.com) | [justfielding.com](https://justfielding.com) | [GitHub](https://github.com/fielding) | [LinkedIn](https://www.linkedin.com/in/fieldingjohnston/)
 
 ---
 
-A versatile full-stack software engineer with 15+ years of experience building scalable AI infrastructure, distributed systems, and healthcare platforms. Currently building a greenfield patient communications platform at Freed, selected as the company's top strategic bet. Previously architected a distributed inference framework for 120k models handling 2M daily requests and a layer 1 blockchain at Nesa. Passionate about AI adoption, from engineering culture initiatives to production AI systems.
+A versatile full-stack software engineer with 15+ years of experience building scalable AI infrastructure, distributed systems, and healthcare platforms. Currently Principal Engineer at Venice.ai, building a privacy-first generative AI platform. Previously architected a distributed inference framework for 120k models handling 2M daily requests and a layer 1 blockchain at Nesa. Passionate about AI adoption, from engineering culture initiatives to production AI systems.
 
 ## 𝗘𝘅𝗽𝗲𝗿𝗶𝗲𝗻𝗰𝗲
 
+### Principal Engineer
+**Venice.ai** | 2026 - Present
+
+- Principal Engineer on a privacy-first generative AI platform serving open-source text and image models to consumers and API customers.
+- Drive architecture and reliability work across the platform's inference infrastructure.
+- Champion AI-assisted engineering practices and agentic development workflows across the team.
+
+
 ### Senior Software Engineer
-**Freed** | 2025 - Present
+**Freed** | 2025 - 2026
 
 - Founding member of a 4-person team that built a greenfield patient communications platform; selected as the company's top strategic bet and scaled to a larger team.
 - Built end-to-end voice and SMS infrastructure including patient identification with dual validation, AI-initiated call transfer, two-way SMS with TCPA-compliant consent, and PHI screening via LLM.
