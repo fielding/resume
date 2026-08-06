@@ -13,9 +13,9 @@ A versatile full-stack software engineer with 15+ years of experience building s
 ### Principal Engineer
 **Venice.ai** | 2026 - Present
 
-- Principal Engineer on a privacy-first generative AI platform serving open-source text and image models to consumers and API customers.
-- Drive architecture and reliability work across the platform's inference infrastructure.
-- Champion AI-assisted engineering practices and agentic development workflows across the team.
+- Built Anon Email, a relay and masking layer that keeps real user addresses out of third-party systems while mail still reaches the same inbox.
+- Building Identity Guard, which replaces sensitive data with stable placeholders before it reaches AI providers, then restores it in the response.
+- Working with dkubb on the Rust inference proxy, testing it against the existing TypeScript path before it sees production traffic.
 
 
 ### Senior Software Engineer
