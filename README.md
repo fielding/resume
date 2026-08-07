@@ -16,7 +16,7 @@ A versatile full-stack software engineer with 15+ years of experience building s
 - Working across privacy, data protection, and inference infrastructure for Venice's generative AI platform.
 - Built Anon Email, a relay and masking layer that keeps real user addresses out of third-party systems while mail still reaches the same inbox.
 - Building Identity Guard, which replaces sensitive data with stable placeholders before it reaches AI providers, then restores it in the response.
-- Testing the Rust inference proxy against the existing TypeScript path before it sees production traffic.
+- Rewriting Venice's inference infrastructure in Rust.
 
 
 ### Senior Software Engineer
